@@ -1,9 +1,8 @@
-
 //Child Class of Species Class
-
 public class Human extends Species{
-    int graduationyear;
+    int graduationyear; // Data Members
     int marks;
+    // Constructor
     public Human(String name, int age,String gender ,int graduationyear,int marks)
     {
         super(name,age,gender);
